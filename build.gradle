@@ -4,6 +4,7 @@ buildscript {
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:2.1.7.RELEASE")
+        classpath('io.swagger:swagger-codegen:2.3.1')
     }
 }
 
